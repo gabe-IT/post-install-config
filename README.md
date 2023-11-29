@@ -1,68 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
+![osTicket logo](https://i.imgur.com/Clzj7Xs.png)
 
-<p align="center">
-    <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
+# osTicket - Post-Install Configuration
+This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.
 
-<h1>osTicket - Post-Install Configuration</h1>
-<p>This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.</p>
+## Video Demonstration
+- [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
-<h2>Environments and Technologies Used</h2>
-<ul>
-    <li>Microsoft Azure (Virtual Machines/Compute)</li>
-    <li>Remote Desktop</li>
-    <li>Internet Information Services (IIS)</li>
-</ul>
+## Environments and Technologies Used
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Internet Information Services (IIS)
 
-<h2>Operating Systems Used</h2>
-<ul>
-    <li>Windows 10 (21H2)</li>
-</ul>
+## Operating Systems Used
+- Windows 10 (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
-<ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-    <li>Item 4</li>
-    <li>Item 5</li>
-</ul>
+## Post-Install Configuration Objectives
+- Configure osTicket Components
+- Configure Roles, Departments, and Teams
+- Configure User Settings and Agents
+- Set up SLA Plans and Help Topics
+- Practice with Tickets and Ticket Lifecycle
 
-<h2>Configuration Steps</h2>
+## Configuration Steps
+### Step 1: Configure osTicket Components
+![Step 1 Image Description](https://i.imgur.com/DJmEXEB.png)
+- Initialize system settings and parameters
+- Confirm PHP extensions are installed and activated
+- Set up email parsing and fetching configurations
 
-<!-- Placeholder for Step 1 Image -->
-<p>
-    <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step 1 Image Description"/>
-</p>
-<p>
-    <!-- Description for Step 1 -->
-</p>
-<br />
+### Step 2: Configure Roles, Departments, and Teams
+![Step 2 Image Description](https://i.imgur.com/DJmEXEB.png)
+- Define roles with specific access and control levels
+- Organize departments by function or service area
+- Create teams for specialized support tasks
 
-<!-- Placeholder for Step 2 Image -->
-<p>
-    <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step 2 Image Description"/>
-</p>
-<p>
-    <!-- Description for Step 2 -->
-</p>
-<br />
+### Step 3: Configure User Settings and Agents
+![Step 3 Image Description](https://i.imgur.com/DJmEXEB.png)
+- Determine user registration requirements and access privileges
+- Add agents to the system with associated roles
+- Assign agents to departments and teams as per their skillsets
 
-<!-- Placeholder for Step 3 Image -->
-<p>
-    <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step 3 Image Description"/>
-</p>
-<p>
-    <!-- Description for Step 3 -->
-</p>
-<br />
+### Step 4: Set up SLA Plans and Help Topics
+![Step 4 Image Description](https://i.imgur.com/DJmEXEB.png)
+- Create SLA policies for different priority levels
+- Design help topics to categorize and auto-route tickets
+- Implement automated responses based on help topics
 
-<!-- Further steps can be added similarly -->
+### Step 5: Practice with Tickets and Ticket Lifecycle
+![Step 5 Image Description](https://i.imgur.com/DJmEXEB.png)
+- Generate sample tickets to understand the ticket flow
+- Engage in triage: categorize, prioritize, and assign tickets
+- Resolve tickets and follow up with the ticket originators
 
-</body>
-</html>
+<!-- Additional descriptions and steps can be continued in a similar format -->
